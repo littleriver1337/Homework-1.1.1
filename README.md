@@ -81,6 +81,7 @@ Coffee[] policecoffeewatchinme = {coffee1; coffee2; coffee3; coffee4;};
 for(int i = 0; i < policecoffeewatchinme.length)
 ```
 
+//Brick likes Lamp Class + Array
 ```java
 class Lamp {String name, string size, int wattage}
 Lamp lamp1 = new Lamp()
