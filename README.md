@@ -53,3 +53,30 @@ son.legs = 2
 son.armrests = 100
 Chair[] alotachairs = {me; you; we; son;}
 ```
+
+//My attempt to add a loop to my Class + Array
+```java
+class Coffee {String type; String size; int ounces; int aweomeness}
+Coffee coffee1 = new Coffee()
+coffee1.type = "Mocha"
+coffee1.size = "Vente"
+coffee1.ounces = 16
+coffee1.awesomeness = 5
+Coffee coffee2 = new Coffee()
+coffee2.type = "Regular"
+coffee2.size = "Grande"
+coffee2.ounces = 12
+coffee2.awesomeness = 3
+Coffee coffee3 = new Coffee()
+coffee3.type = "Salty Nuts"
+coffee3.size = "Small"
+coffee3.ounces = 8
+coffee3.awesomeness = 0
+Coffee coffee4 = new Coffee()
+coffee4.type = "Police"
+coffee4.size = "Extra Small"
+coffee4.ounces = 1
+coffee4.awesomeness = -10
+Coffee[] policecoffeewatchinme = {coffee1; coffee2; coffee3; coffee4;};
+for(int i = 0; i < policecoffeewatchinme.length)
+```
