@@ -8,6 +8,15 @@ House me = new House()
 me.name = "Vicotorian"
 me.sqft = 300
 me.bed = 3
+House g = new House()
+g.name = "Stucco"
+g.sqft = 600
+g.bed = 1
+House b = new House()
+b.name = "Standard"
+b.sqft = 1000
+b.bed = 3
+House[] reallysmallhouses = {me; g; b;}
 ```
 
 //Class for Cars
