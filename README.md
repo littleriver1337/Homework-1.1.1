@@ -80,3 +80,20 @@ coffee4.awesomeness = -10
 Coffee[] policecoffeewatchinme = {coffee1; coffee2; coffee3; coffee4;};
 for(int i = 0; i < policecoffeewatchinme.length)
 ```
+
+```java
+class Lamp {String name, string size, int wattage}
+Lamp lamp1 = new Lamp()
+lamp1.name = "Brick"
+lamp1.size = "Large"
+lamp1.wattage = 100
+Lamp lamp2 = new Lamp()
+lamp2.name = "Trident"
+lamp2.size = "Extra Large"
+lamp2.wattage = 300
+Lamp lamp3 = new Lamp()
+lamp3.name = "Grenade"
+lamp3.size = "Small"
+lamp3.wattage = 900
+Lamp[] bricklikeslamp = {lamp1; lamp2; lamp3;}
+```
